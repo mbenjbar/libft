@@ -25,8 +25,8 @@ static char	*empty(void)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	i;
-	size_t	j;
+	int		i;
+	int		j;
 	char	*ptr;
 
 	if (!s1 || !set)
